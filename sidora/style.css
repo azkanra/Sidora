@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+
+/*index.html*/
+* {
+	font-family: 'Baloo Tammudu 2'
+}
+body {
+	background: #8c5151;
+}
+label.logo{
+	color: #8c5151;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 50px;
+	font-weight: bold;
+}
+label {
+	font-size: 11pt;
+}
+#title {
+	text-align: center;
+	margin-top: 30px;
+	color: wheat;
+	font-size: 30px;
+}
+#forgot-pass {
+	color: saddlebrown;
+	font-size: 10pt;
+	margin-top: 3px;
+	text-align: right;
+}
+#login {
+	background: #faf6f5;
+	border-radius: 8px;
+	height: 410px;
+	margin: 6rem auto 8.1rem auto;
+	width: 340px;
+
+}
+#login-content {
+	padding: 12px 44px;
+}
+#login-title {
+	letter-spacing: 4px;
+	padding-bottom: 23px;
+	padding-top: 13px;
+	text-align: center;
+}
+#signup {
+	color: white;
+	font-size: 10pt;
+	margin-top: 30px;
+	text-align: center;
+}
+#submit-btn {
+	background: #8c5151;
+	color: white;
+	border-radius: 21px;
+	border: none;
+	box-shadow: 1px 1px 8px #indianred;
+	cursor: pointer;
+	height: 42.3px;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 153px;
+	transition: 0.25px;
+}
+.form {
+	align-items: left;
+	display: flex;
+	flex-direction: column;
+}
+.form-border {
+	height: 1px;
+	width: 100%;
+	background: #8c5151;
+}
+.form-content {
+	background: rosybrown;
+	border: none;
+	outline: none;
+	padding-top: 14px;
+}
+.underline-title {
+	height: 2px;
+	margin: -1.1rem auto 0 auto;
+	width: 89px;
+}
+
+
+/*profil.html*/
+* {
+	margin: 0;
+	padding: 0;
+}
+header .judul{
+	display: flex;
+	text-align: center;
+}
+header {
+	display: inline;
+}
+
+nav > ul {
+	justify-content: center;
+	display: flex;
+}
+nav li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 20px;
+}
+nav {
+	background-color: #faf6f5;
+	padding: 5px;
+	position: sticky;
+	top: 0;
+}
+nav ul li {
+	position: relative;
+}
+nav a {
+	display: block;
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	color: gray ;
+	position: relative;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	transition: all 0.2s ea;
+}
+nav a:hover, nav a.active,
+nav .dd_menu ul li a:hover,
+nav .dd_menu ul li a.active {
+	font-weight: bold;
+	background: beige;
+}
+.profil {
+	max-width: 800px;
+}
+.profil-kanan img {
+	width: 25px;
+}
+.profil-kanan{
+	color: #8c5151;
+	font-size: 25px;
+	line-height: 80px;
+	padding: 0 50px;
+	font-weight: bold;
+	float: right;
+}
+.center .avatar img {
+	border-radius: 50%;
+	width: 140px;
+	height: 140px;
+	margin-top: 5%;
+	object-fit: cover;
+}
+.avatar img {
+	border-radius: 50%;
+	width: 180px;
+	margin-top: 5%;
+	object-fit: cover;
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+}
+.center {
+	margin-top: 30px;
+	width: 55%;
+	background-color: #f0eded;
+	height: auto;
+	text-align: center;
+	border-radius: 5px;
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+	margin-top: 40px;
+	font-family: 'Baloo Tammudu 2';
+	max-width: 800px;
+}
+.center img {
+	width: auto;
+	max-width: 200px;
+	min-width: 50px;
+	display: flex;
+
+}
+.content {
+	padding: 30px;
+
+}
+h1 {
+	color: black;
+}
+.content h2,p {
+	font-weight: lighter;
+	letter-spacing: 1px;
+	width: 70%;
+	margin: 10px auto;
+}
+.top-left {
+	margin-top: 20px;
+	border-radius: 10px;
+	width: 100px;
+	text-align: center;
+	color: #faf6f5;
+	font-size: 30px;
+	margin-left: 50px;
+}
+
+/*beranda.html*/
+.baris {
+			
+	display: flex;
+	flex-direction: row;
+    flex-grow: 1;
+ 
+    /* properti lainnya */
+    padding: 6% 2%;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 960px;
+}
+.kolom {
+	display: block;
+	margin: 30px;
+	padding: 0;
+	list-style: none;
+	flex-direction: column;
+	margin-top: 40px;
+	font-family: 'Baloo Tammudu 2';
+	border-radius: 10px;
+	width: auto;
+	text-align: center;
+	position: relative;
+}
+.kolom img {
+	width: 100%;
+}
+.kolom:after{
+	clear: both;
+}
+.kolom:after, .box:before{
+	content: "";
+	display: table;
+}
+.kolom li {
+	width: 150px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+	border-radius: 20px;
+}
+.box {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	border-radius: 10px;
+	-webkit-transition:  0.3s ease-in-out, -webkit-transform:  0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, -moz-transform:  0.3s ease-in-out;
+	transition: 0.3s ease-in-out, transform 0.3 ease-in-out;
+}
+.box:hover {
+	transition: scale(1.05);
+}
+
+/*donor-darah.html*/
+.wrapper {
+	max-width: 500px;
+	width: 100%;
+	background: #aba6a4;
+	margin: 20px auto;
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+}
+.wrapper .title{
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 25px;
+	color: white;
+	text-align: center;
+}
+.wrapper .form {
+	width: 100%;
+
+}
+.wrapper .form .input-field {
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+
+}
+.wrapper .form .input-field label {
+	width: 200px;
+	margin-right: 10px;
+	font-size: 14px;
+
+}
+.wrapper .form .input-field .input,
+.wrapper .form .input-field .textarea {
+	outline: none;
+	border: 1px solid maroon;
+	font-size: 15px;
+	padding: 8px 10px;
+	border-radius: 3px;
+	transition: all 0.3s ease;
+}
+.wrapper .form .input-field .textarea {
+	resize: none;
+	height: 125px;
+
+}
+.wrapper .form .input-field .custom-select {
+	position: relative;
+	width: 58%;
+	height: 37px;
+
+}
+.wrapper .form .input-field .custom-select select{
+	-webkit-appearance: none;
+	border: 1px solid maroon;
+	appearance: none;
+	width: 100%;
+	height: 100%;
+	border-radius: 3px;
+	outline: none;
+}
+.wrapper .form .input-field .custom-select:before{
+	content: "";
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	border: 8px solid;
+	border-color: maroon transparent transparent transparent;
+	pointer-events: none;
+}
+.wrapper .form .input-field .check {
+	width: 15px;
+	height: 15px;
+	position: relative;
+	display: block;
+	cursor: pointer;
+}
+
+/* rs-terdekat.html*/
+.search-box {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #8c5151;
+	border: 2px solid gray;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.search-box:hover > .search-txt {
+	width: 240px;
+	padding: 0 6px;
+
+}
+.search-box:hover > .search-btn {
+	background: # 8c5151;
+
+}
+.search-btn {
+	color: black;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #aba6a4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+}
+.search-txt {
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
+.caption {
+	background: #8c5151;
+	color: white;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+/* contact-us.html*/
+.gif {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	object-position: center 70%;
+}
+.contact img {
+	width: 100px;
+	float: left;
+}
+
+/*riwayat.html*/
+.rwyt {
+	flex-grow: 1;
+	flex-direction: row;
+	width: 20%;
+}
+.rwyt1 {
+	border-right: 1px solid black;
+}
+.left {
+	margin-top: 50px;
+	width: 18%;
+	background-color: #f0eded;
+	height: auto;
+	text-align: center;
+	border-radius: 5px;
+	display: flex;
+	float: left;
+	flex-direction: column;
+	font-family: 'Baloo Tammudu 2';
+	max-width: 800px;
+	margin-left: 20px;
+
+}
+
+.right {
+	margin-top: 50px;
+	width: 18%;
+	background-color: #f0eded;
+	height: auto;
+	text-align: center;
+	border-radius: 5px;
+	display: flex;
+	float: right;
+	flex-direction: column;
+	font-family: 'Baloo Tammudu 2';
+	max-width: 800px;
+	margin-right: 20px;
+}
+.right p {
+	color: red;
+}
+.card .featured-image {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin-top: 5%;
+	object-fit: cover;
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+	float: right;
+}
+.card h5, .card h3{
+	float: left;
+	position: relative;
+}
+.card {
+	margin: 20px;
+}
+.berita {
+	margin-top: 30px;
+	width: 70%;
+	background-color: #f0eded;
+	height: auto;
+	text-align: center;
+	border-radius: 5px;
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+	margin-top: 40px;
+	font-family: 'Baloo Tammudu 2';
+	max-width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
